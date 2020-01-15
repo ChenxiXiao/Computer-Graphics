@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		40662B92EC5E49388CB57BED /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8A40B71299E14F72A4532D4F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				05E845EB2E7B474F945E6A6B /* CMake Rules */,
+			);
+			dependencies = (
+				DFCAFCF1E34847939ABF1041 /* PBXTargetDependency */,
+				AAAD665146FE4EB6A5D00ACC /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		6EEF65442182477EBAE46E5A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 70D9C669607E497995AA8412 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				2E7FEAB4687F4B13B1CCB154 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0C2C84FDFACC44C2A22B107A /* /Users/ccmac/Documents/L01/src/stb_image_write.h */ = {isa = PBXBuildFile; fileRef = 90457FC6EB1449169BB53648 /* /Users/ccmac/Documents/L01/src/stb_image_write.h */; };
+		16A37DD99BF046D592CB6E5E /* /Users/ccmac/Documents/L01/src/Image.h */ = {isa = PBXBuildFile; fileRef = D0309EDE67344DEFA0F2E6A3 /* /Users/ccmac/Documents/L01/src/Image.h */; };
+		73EA180B124D4FA99F22B0A7 /* /Users/ccmac/Documents/L01/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 671ACA5C41664EB380DF125A /* /Users/ccmac/Documents/L01/src/main.cpp */; };
+		B9ACC7DF805B4076840C9F4C /* /Users/ccmac/Documents/L01/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0AA8358284764CB48C6AE917 /* /Users/ccmac/Documents/L01/CMakeLists.txt */; };
+		EF475A183C034A3FAF997B13 /* /Users/ccmac/Documents/L01/src/Image.cpp */ = {isa = PBXBuildFile; fileRef = 651CE7B3D7644F83A2F70DDA /* /Users/ccmac/Documents/L01/src/Image.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		762F299CA15A48E48FB40E45 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		8582B18E94564CD9938775E8 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C2E58B2C9BB242F794447047 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		DD9A98268A5C433EA7DF3153 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		307DA368D0F94D5DA0784A99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A22A94C4018C49FAA9254422 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EEF65442182477EBAE46E5A;
+			remoteInfo = ZERO_CHECK;
+		};
+		D91651C78FBB4803A61D1F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A22A94C4018C49FAA9254422 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778A312AA4694494B1BBC0D9;
+			remoteInfo = Lab01;
+		};
+		E42D5C81F27C43F1A0C08D7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A22A94C4018C49FAA9254422 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EEF65442182477EBAE46E5A;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0410F034BCFC4EF2B64F6A60 /* Lab01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Lab01; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA8358284764CB48C6AE917 /* /Users/ccmac/Documents/L01/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		651CE7B3D7644F83A2F70DDA /* /Users/ccmac/Documents/L01/src/Image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Image.cpp; path = src/Image.cpp; sourceTree = SOURCE_ROOT; };
+		671ACA5C41664EB380DF125A /* /Users/ccmac/Documents/L01/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		90457FC6EB1449169BB53648 /* /Users/ccmac/Documents/L01/src/stb_image_write.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image_write.h; path = src/stb_image_write.h; sourceTree = SOURCE_ROOT; };
+		D0309EDE67344DEFA0F2E6A3 /* /Users/ccmac/Documents/L01/src/Image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Image.h; path = src/Image.h; sourceTree = SOURCE_ROOT; };
+		ECDDA77985AB4722BD7CADB5 /* /Users/ccmac/Documents/L01/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0214F4CDBD1146E0BB896F7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0410F034BCFC4EF2B64F6A60 /* Lab01 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		091F61D7305148D1ACD84E20 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0309EDE67344DEFA0F2E6A3 /* /Users/ccmac/Documents/L01/src/Image.h */,
+				90457FC6EB1449169BB53648 /* /Users/ccmac/Documents/L01/src/stb_image_write.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		3752853910784174A03A2F3B /* Lab01 */ = {
+			isa = PBXGroup;
+			children = (
+				9736E09EDE444B60A9C03FD1 /* Source Files */,
+				091F61D7305148D1ACD84E20 /* Header Files */,
+				0AA8358284764CB48C6AE917 /* /Users/ccmac/Documents/L01/CMakeLists.txt */,
+			);
+			name = Lab01;
+			sourceTree = "<group>";
+		};
+		50CEE756D5C04D4194EF0599 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9736E09EDE444B60A9C03FD1 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				651CE7B3D7644F83A2F70DDA /* /Users/ccmac/Documents/L01/src/Image.cpp */,
+				671ACA5C41664EB380DF125A /* /Users/ccmac/Documents/L01/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9D2481A4764C46C3B08EB22D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				50CEE756D5C04D4194EF0599 /* CMake Rules */,
+				ECDDA77985AB4722BD7CADB5 /* /Users/ccmac/Documents/L01/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A9413783304E48B7B0F9B7A3 = {
+			isa = PBXGroup;
+			children = (
+				3752853910784174A03A2F3B /* Lab01 */,
+				9D2481A4764C46C3B08EB22D /* ALL_BUILD */,
+				0214F4CDBD1146E0BB896F7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		778A312AA4694494B1BBC0D9 /* Lab01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68FF6D88D30440BB85324A10 /* Build configuration list for PBXNativeTarget "Lab01" */;
+			buildPhases = (
+				BA8147CF01B6449B9E8A4B29 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F542CEDA10CC4ECA99D240E5 /* PBXTargetDependency */,
+			);
+			name = Lab01;
+			productName = Lab01;
+			productReference = 0410F034BCFC4EF2B64F6A60 /* Lab01 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A22A94C4018C49FAA9254422 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = DF5188EEA696408387399D66 /* Build configuration list for PBXProject "Lab01" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				762F299CA15A48E48FB40E45 /* Debug */,
+				8582B18E94564CD9938775E8 /* Release */,
+				DD9A98268A5C433EA7DF3153 /* MinSizeRel */,
+				C2E58B2C9BB242F794447047 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A9413783304E48B7B0F9B7A3;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				40662B92EC5E49388CB57BED /* ALL_BUILD */,
+				778A312AA4694494B1BBC0D9 /* Lab01 */,
+				6EEF65442182477EBAE46E5A /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05E845EB2E7B474F945E6A6B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ccmac/Documents/L01/build -f /Users/ccmac/Documents/L01/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		1F520262CDE441A1ABD74551 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		2E7FEAB4687F4B13B1CCB154 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ccmac/Documents/L01/build -f /Users/ccmac/Documents/L01/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		C2EB44B7483C4928A570BF26 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA8147CF01B6449B9E8A4B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF475A183C034A3FAF997B13 /* /Users/ccmac/Documents/L01/src/Image.cpp */,
+				73EA180B124D4FA99F22B0A7 /* /Users/ccmac/Documents/L01/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAAD665146FE4EB6A5D00ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778A312AA4694494B1BBC0D9 /* Lab01 */;
+			targetProxy = D91651C78FBB4803A61D1F78 /* PBXContainerItemProxy */;
+		};
+		DFCAFCF1E34847939ABF1041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EEF65442182477EBAE46E5A /* ZERO_CHECK */;
+			targetProxy = 307DA368D0F94D5DA0784A99 /* PBXContainerItemProxy */;
+		};
+		F542CEDA10CC4ECA99D240E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EEF65442182477EBAE46E5A /* ZERO_CHECK */;
+			targetProxy = E42D5C81F27C43F1A0C08D7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		025EF41865E14F8DAEEDDA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/ccmac/Documents/L01/build/build;
+			};
+			name = Release;
+		};
+		0FD046D0F9074997B04A6D29 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/L01/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		10CE0BF21ADD44508B96F89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/L01/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2AF5AB910AC74DF5900E5743 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/L01/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4D26D9A6C8684DC8B92287EA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++0x -Wall -pedantic  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab01;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/L01/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8AA47B4578214A63B87B5668 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/L01/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8B993CCC5772433C8A960F22 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/ccmac/Documents/L01/build/build;
+			};
+			name = MinSizeRel;
+		};
+		9570B877FC6D477AA2B6EA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++0x -Wall -pedantic  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab01;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/L01/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9EAF32FFE795429DA7B8A5FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/ccmac/Documents/L01/build/build;
+			};
+			name = Debug;
+		};
+		AEFAB1D34F4F474193CEAE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++0x -Wall -pedantic  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab01;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/L01/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B24D3DD0EEAC4CB7A946796B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/ccmac/Documents/L01/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		CFD405F03A094F55AE93AAD0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/L01/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D828448B3E30445CA8FD7BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/L01/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		ECAB8196AACA414191E94D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/L01/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F6629FC342094B0CB32F6504 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++0x -Wall -pedantic  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab01;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/L01/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FA45855049B24521AC880A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/L01/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68FF6D88D30440BB85324A10 /* Build configuration list for PBXNativeTarget "Lab01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFAB1D34F4F474193CEAE92 /* Debug */,
+				9570B877FC6D477AA2B6EA2B /* Release */,
+				F6629FC342094B0CB32F6504 /* MinSizeRel */,
+				4D26D9A6C8684DC8B92287EA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		70D9C669607E497995AA8412 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAB8196AACA414191E94D40 /* Debug */,
+				FA45855049B24521AC880A64 /* Release */,
+				CFD405F03A094F55AE93AAD0 /* MinSizeRel */,
+				8AA47B4578214A63B87B5668 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8A40B71299E14F72A4532D4F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D828448B3E30445CA8FD7BF9 /* Debug */,
+				10CE0BF21ADD44508B96F89F /* Release */,
+				0FD046D0F9074997B04A6D29 /* MinSizeRel */,
+				2AF5AB910AC74DF5900E5743 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DF5188EEA696408387399D66 /* Build configuration list for PBXProject "Lab01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EAF32FFE795429DA7B8A5FA /* Debug */,
+				025EF41865E14F8DAEEDDA5B /* Release */,
+				8B993CCC5772433C8A960F22 /* MinSizeRel */,
+				B24D3DD0EEAC4CB7A946796B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A22A94C4018C49FAA9254422 /* Project object */;
+}
