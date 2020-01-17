@@ -8,23 +8,23 @@ default:
 # link.  This forces Xcode to relink the targets from scratch.  It
 # does not seem to check these dependencies itself.
 PostBuild.raster.Debug:
-/Users/ccmac/Documents/P1\ RasterBase/Build/Debug/raster:
-	/bin/rm -f /Users/ccmac/Documents/P1\ RasterBase/Build/Debug/raster
+/Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/Build/Debug/raster:
+	/bin/rm -f /Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/Build/Debug/raster
 
 
 PostBuild.raster.Release:
-/Users/ccmac/Documents/P1\ RasterBase/Build/Release/raster:
-	/bin/rm -f /Users/ccmac/Documents/P1\ RasterBase/Build/Release/raster
+/Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/Build/Release/raster:
+	/bin/rm -f /Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/Build/Release/raster
 
 
 PostBuild.raster.MinSizeRel:
-/Users/ccmac/Documents/P1\ RasterBase/Build/MinSizeRel/raster:
-	/bin/rm -f /Users/ccmac/Documents/P1\ RasterBase/Build/MinSizeRel/raster
+/Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/Build/MinSizeRel/raster:
+	/bin/rm -f /Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/Build/MinSizeRel/raster
 
 
 PostBuild.raster.RelWithDebInfo:
-/Users/ccmac/Documents/P1\ RasterBase/Build/RelWithDebInfo/raster:
-	/bin/rm -f /Users/ccmac/Documents/P1\ RasterBase/Build/RelWithDebInfo/raster
+/Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/Build/RelWithDebInfo/raster:
+	/bin/rm -f /Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/Build/RelWithDebInfo/raster
 
 
 

@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		2F0CCD695CD24A2284D0077B /* ZERO_CHECK */ = {
+		757148F085FF4CDFAB379AC0 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 5CF2BE1E7943455F992055B5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = C7754E9F910E4FBAA89EC4E7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				4CBB53A37E974057A654B964 /* CMake Rules */,
+				357E0309A52447DDBB2B55D0 /* CMake Rules */,
 			);
 			dependencies = (
 			);
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
-		E395358DD6994C8BBC1F1885 /* ALL_BUILD */ = {
+		C6CBF6425727494986A33404 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 2EA18AAFA86E4C75BD90307F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 82419D5895D44072B50A1F85 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				1557AF4840394DB3B16E5C1F /* CMake Rules */,
+				3A7D837E6AED4773943F35AF /* CMake Rules */,
 			);
 			dependencies = (
-				631E8CFD1A624BEFA067C443 /* PBXTargetDependency */,
-				A925B4F0D05F402B87AC8423 /* PBXTargetDependency */,
+				E91A61E6DAC54102A962BBD0 /* PBXTargetDependency */,
+				ED6E418D822D42129316AACA /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -34,220 +34,198 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		148344B3D9F347F5AEF1B511 /* /Users/ccmac/Documents/P1 RasterBase/src/Image.h */ = {isa = PBXBuildFile; fileRef = 10DE2638DFCE4372B8AF236A /* /Users/ccmac/Documents/P1 RasterBase/src/Image.h */; };
-		23C6FA2202D64E4E84F10740 /* /Users/ccmac/Documents/P1 RasterBase/src/stb_image_write.h */ = {isa = PBXBuildFile; fileRef = 12CC2047EA29438593F014F2 /* /Users/ccmac/Documents/P1 RasterBase/src/stb_image_write.h */; };
-		A8896F8E0F4D4B1FA758B079 /* /Users/ccmac/Documents/P1 RasterBase/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5652371FBF934ACF9BBCF3C9 /* /Users/ccmac/Documents/P1 RasterBase/CMakeLists.txt */; };
-		AC815D8D3D114C479D657DAB /* /Users/ccmac/Documents/P1 RasterBase/src/tiny_obj_loader.cpp */ = {isa = PBXBuildFile; fileRef = 17531DCB03CE44BA8A9DBA57 /* /Users/ccmac/Documents/P1 RasterBase/src/tiny_obj_loader.cpp */; };
-		D163F2488A264609BC503B92 /* /Users/ccmac/Documents/P1 RasterBase/src/tiny_obj_loader.h */ = {isa = PBXBuildFile; fileRef = 116C6664C9124CE78FE7F93D /* /Users/ccmac/Documents/P1 RasterBase/src/tiny_obj_loader.h */; };
-		D3E5A2DE315F403E87A38304 /* /Users/ccmac/Documents/P1 RasterBase/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 25E62843B58B445795FCEDA6 /* /Users/ccmac/Documents/P1 RasterBase/src/main.cpp */; };
-		EE2076070DA6412ABB0A3088 /* /Users/ccmac/Documents/P1 RasterBase/src/Image.cpp */ = {isa = PBXBuildFile; fileRef = F4118C13D5A842448B276CBA /* /Users/ccmac/Documents/P1 RasterBase/src/Image.cpp */; };
+		353C3367AE124B7CAF0753B3 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/tiny_obj_loader.cpp */ = {isa = PBXBuildFile; fileRef = 41603AC033A6459089BF1CA2 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/tiny_obj_loader.cpp */; };
+		3D0041222D9542F8AA8D72EC /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/Image.h */ = {isa = PBXBuildFile; fileRef = D3FD81AEE174480B9FE1BB48 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/Image.h */; };
+		6BE85D91AF224A7D9CE4E60C /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E67C00574A1743D78B057D41 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/CMakeLists.txt */; };
+		A13AFA2F47BD4739B1F31F80 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 400AACD0110C453DAB3C4E7B /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/main.cpp */; };
+		E7B307BEE2574A8ABB14D0A3 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/Image.cpp */ = {isa = PBXBuildFile; fileRef = 718B0D3C04154C13A0FDA0F1 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/Image.cpp */; };
+		E9ADC43805E74D09BC1DBFAB /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/tiny_obj_loader.h */ = {isa = PBXBuildFile; fileRef = ED46B9BF89424B09B491015D /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/tiny_obj_loader.h */; };
+		EF785610FF7E43BB9C5637B7 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/stb_image_write.h */ = {isa = PBXBuildFile; fileRef = B127D3EB3A9347FDB5700406 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/stb_image_write.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		557F260D2D9B46C7B9DFC10D /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		80C64E8894E042D38B770198 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		AF0BA30197E6414692E7D052 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		FD676FF2A6E641179B7A8F26 /* RelWithDebInfo */ = {
+		3F9F2797F50B4DF08380F240 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
+		6C169BB4726D4DC581B5ADF4 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		98B579FFCB8C409E8C9A2B21 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A695624542034FA5A9000D9E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		8C20AC61D35C43BBA2D3D9FD /* PBXContainerItemProxy */ = {
+		1001F65B05914DEEBF8D2330 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4A32213D3DFD4A1F83F43B0F /* Project object */;
+			containerPortal = 734D73F38F08401486E5097B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2F0CCD695CD24A2284D0077B;
+			remoteGlobalIDString = 757148F085FF4CDFAB379AC0;
 			remoteInfo = ZERO_CHECK;
 		};
-		8E92A2B0AD5E43A2BA5192A5 /* PBXContainerItemProxy */ = {
+		4759D6846BAE47BFB57807A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4A32213D3DFD4A1F83F43B0F /* Project object */;
+			containerPortal = 734D73F38F08401486E5097B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CF55D1AFEB974EAEA5780791;
+			remoteGlobalIDString = 9B7C9B334A164F6683B29007;
 			remoteInfo = raster;
 		};
-		B594F4DDCE9A44D2A031D079 /* PBXContainerItemProxy */ = {
+		CE801099319C4678836A9922 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4A32213D3DFD4A1F83F43B0F /* Project object */;
+			containerPortal = 734D73F38F08401486E5097B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2F0CCD695CD24A2284D0077B;
+			remoteGlobalIDString = 757148F085FF4CDFAB379AC0;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10DE2638DFCE4372B8AF236A /* /Users/ccmac/Documents/P1 RasterBase/src/Image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Image.h; path = src/Image.h; sourceTree = SOURCE_ROOT; };
-		116C6664C9124CE78FE7F93D /* /Users/ccmac/Documents/P1 RasterBase/src/tiny_obj_loader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiny_obj_loader.h; path = src/tiny_obj_loader.h; sourceTree = SOURCE_ROOT; };
-		12CC2047EA29438593F014F2 /* /Users/ccmac/Documents/P1 RasterBase/src/stb_image_write.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image_write.h; path = src/stb_image_write.h; sourceTree = SOURCE_ROOT; };
-		17531DCB03CE44BA8A9DBA57 /* /Users/ccmac/Documents/P1 RasterBase/src/tiny_obj_loader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tiny_obj_loader.cpp; path = src/tiny_obj_loader.cpp; sourceTree = SOURCE_ROOT; };
-		25E62843B58B445795FCEDA6 /* /Users/ccmac/Documents/P1 RasterBase/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		520E18B8693249508D2C0E7B /* raster */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = raster; sourceTree = BUILT_PRODUCTS_DIR; };
-		5652371FBF934ACF9BBCF3C9 /* /Users/ccmac/Documents/P1 RasterBase/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		A0DC0469C7DD40D99CC07502 /* /Users/ccmac/Documents/P1 RasterBase/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		F4118C13D5A842448B276CBA /* /Users/ccmac/Documents/P1 RasterBase/src/Image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Image.cpp; path = src/Image.cpp; sourceTree = SOURCE_ROOT; };
+		400AACD0110C453DAB3C4E7B /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		41603AC033A6459089BF1CA2 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/tiny_obj_loader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tiny_obj_loader.cpp; path = src/tiny_obj_loader.cpp; sourceTree = SOURCE_ROOT; };
+		718B0D3C04154C13A0FDA0F1 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/Image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Image.cpp; path = src/Image.cpp; sourceTree = SOURCE_ROOT; };
+		B127D3EB3A9347FDB5700406 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/stb_image_write.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image_write.h; path = src/stb_image_write.h; sourceTree = SOURCE_ROOT; };
+		C72326B1FAC74F71A58A3E27 /* raster */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = raster; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FD81AEE174480B9FE1BB48 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/Image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Image.h; path = src/Image.h; sourceTree = SOURCE_ROOT; };
+		E67C00574A1743D78B057D41 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ED46B9BF89424B09B491015D /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/tiny_obj_loader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiny_obj_loader.h; path = src/tiny_obj_loader.h; sourceTree = SOURCE_ROOT; };
+		F559F69D10344FA78D8CC2CA /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		25B3C85DF7B94DEA80482D56 /* Source Files */ = {
+		19E0160BC48C47BEA170D3C6 = {
 			isa = PBXGroup;
 			children = (
-				F4118C13D5A842448B276CBA /* /Users/ccmac/Documents/P1 RasterBase/src/Image.cpp */,
-				25E62843B58B445795FCEDA6 /* /Users/ccmac/Documents/P1 RasterBase/src/main.cpp */,
-				17531DCB03CE44BA8A9DBA57 /* /Users/ccmac/Documents/P1 RasterBase/src/tiny_obj_loader.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		2ECF648FB32A4D619275DC88 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				520E18B8693249508D2C0E7B /* raster */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3C03C88A0C8D4BF486863749 /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				10DE2638DFCE4372B8AF236A /* /Users/ccmac/Documents/P1 RasterBase/src/Image.h */,
-				12CC2047EA29438593F014F2 /* /Users/ccmac/Documents/P1 RasterBase/src/stb_image_write.h */,
-				116C6664C9124CE78FE7F93D /* /Users/ccmac/Documents/P1 RasterBase/src/tiny_obj_loader.h */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		524EFE050CCB4D279B3311BD /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				9A2BCC23ABF84CF3B76CACFB /* CMake Rules */,
-				A0DC0469C7DD40D99CC07502 /* /Users/ccmac/Documents/P1 RasterBase/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		7702CA9A39CB465C81E5F5FF = {
-			isa = PBXGroup;
-			children = (
-				C943B15C2C064CACAE307422 /* raster */,
-				524EFE050CCB4D279B3311BD /* ALL_BUILD */,
-				2ECF648FB32A4D619275DC88 /* Products */,
+				AC2E576CACA24EF5B6E2152A /* raster */,
+				CAD714A610EA4438BFDB0586 /* ALL_BUILD */,
+				585F2536DF514A88A2AB1737 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9A2BCC23ABF84CF3B76CACFB /* CMake Rules */ = {
+		32478B044FA748FD973EF401 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		C943B15C2C064CACAE307422 /* raster */ = {
+		585F2536DF514A88A2AB1737 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				25B3C85DF7B94DEA80482D56 /* Source Files */,
-				3C03C88A0C8D4BF486863749 /* Header Files */,
-				5652371FBF934ACF9BBCF3C9 /* /Users/ccmac/Documents/P1 RasterBase/CMakeLists.txt */,
+				C72326B1FAC74F71A58A3E27 /* raster */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC2E576CACA24EF5B6E2152A /* raster */ = {
+			isa = PBXGroup;
+			children = (
+				CD501A1FF6684C09B1B989E1 /* Source Files */,
+				BDFE5BD246E644A89A639F46 /* Header Files */,
+				E67C00574A1743D78B057D41 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/CMakeLists.txt */,
 			);
 			name = raster;
+			sourceTree = "<group>";
+		};
+		BDFE5BD246E644A89A639F46 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3FD81AEE174480B9FE1BB48 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/Image.h */,
+				B127D3EB3A9347FDB5700406 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/stb_image_write.h */,
+				ED46B9BF89424B09B491015D /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/tiny_obj_loader.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		CAD714A610EA4438BFDB0586 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				32478B044FA748FD973EF401 /* CMake Rules */,
+				F559F69D10344FA78D8CC2CA /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		CD501A1FF6684C09B1B989E1 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				718B0D3C04154C13A0FDA0F1 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/Image.cpp */,
+				400AACD0110C453DAB3C4E7B /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/main.cpp */,
+				41603AC033A6459089BF1CA2 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/tiny_obj_loader.cpp */,
+			);
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF55D1AFEB974EAEA5780791 /* raster */ = {
+		9B7C9B334A164F6683B29007 /* raster */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFE95798980E4D3F9E92F2CC /* Build configuration list for PBXNativeTarget "raster" */;
+			buildConfigurationList = 2A855FEA11E64B39B0704962 /* Build configuration list for PBXNativeTarget "raster" */;
 			buildPhases = (
-				AA08D40D5F3B466CB683081C /* Sources */,
+				584E923CF03348718E6C3BDF /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BDE1B5E671AB46B094FC02FC /* PBXTargetDependency */,
+				A2C6464355B6429482D47E12 /* PBXTargetDependency */,
 			);
 			name = raster;
 			productName = raster;
-			productReference = 520E18B8693249508D2C0E7B /* raster */;
+			productReference = C72326B1FAC74F71A58A3E27 /* raster */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4A32213D3DFD4A1F83F43B0F /* Project object */ = {
+		734D73F38F08401486E5097B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1130;
 			};
-			buildConfigurationList = 12139294762747C7A4D33363 /* Build configuration list for PBXProject "raster" */;
+			buildConfigurationList = BDEDFB8BFBF5476EB7D13115 /* Build configuration list for PBXProject "raster" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				557F260D2D9B46C7B9DFC10D /* Debug */,
-				80C64E8894E042D38B770198 /* Release */,
-				AF0BA30197E6414692E7D052 /* MinSizeRel */,
-				FD676FF2A6E641179B7A8F26 /* RelWithDebInfo */,
+				98B579FFCB8C409E8C9A2B21 /* Debug */,
+				6C169BB4726D4DC581B5ADF4 /* Release */,
+				A695624542034FA5A9000D9E /* MinSizeRel */,
+				3F9F2797F50B4DF08380F240 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 7702CA9A39CB465C81E5F5FF;
+			mainGroup = 19E0160BC48C47BEA170D3C6;
 			projectDirPath = ../;
 			projectRoot = "";
 			targets = (
-				E395358DD6994C8BBC1F1885 /* ALL_BUILD */,
-				2F0CCD695CD24A2284D0077B /* ZERO_CHECK */,
-				CF55D1AFEB974EAEA5780791 /* raster */,
+				C6CBF6425727494986A33404 /* ALL_BUILD */,
+				757148F085FF4CDFAB379AC0 /* ZERO_CHECK */,
+				9B7C9B334A164F6683B29007 /* raster */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1557AF4840394DB3B16E5C1F /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccmac/Documents/P1\\ RasterBase/Build -f /Users/ccmac/Documents/P1\\ RasterBase/Build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
-			showEnvVarsInLog = 0;
-		};
-		4CBB53A37E974057A654B964 /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/ccmac/Documents/P1\\ RasterBase/Build -f /Users/ccmac/Documents/P1\\ RasterBase/Build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
-			showEnvVarsInLog = 0;
-		};
-		9731AB24111A46B8AD5708E4 = {
+		2841C1C3ED844CBF8FF94759 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,7 +240,29 @@
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		C18082E6DD6F46A6A94336BE = {
+		357E0309A52447DDBB2B55D0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ccmac/Documents/GitHub/CPE471/P1\\ RasterBase/Build -f /Users/ccmac/Documents/GitHub/CPE471/P1\\ RasterBase/Build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		3A7D837E6AED4773943F35AF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ccmac/Documents/GitHub/CPE471/P1\\ RasterBase/Build -f /Users/ccmac/Documents/GitHub/CPE471/P1\\ RasterBase/Build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		5FF6A461410545EEB0B32A39 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,62 +280,38 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AA08D40D5F3B466CB683081C /* Sources */ = {
+		584E923CF03348718E6C3BDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE2076070DA6412ABB0A3088 /* /Users/ccmac/Documents/P1 RasterBase/src/Image.cpp */,
-				D3E5A2DE315F403E87A38304 /* /Users/ccmac/Documents/P1 RasterBase/src/main.cpp */,
-				AC815D8D3D114C479D657DAB /* /Users/ccmac/Documents/P1 RasterBase/src/tiny_obj_loader.cpp */,
+				E7B307BEE2574A8ABB14D0A3 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/Image.cpp */,
+				A13AFA2F47BD4739B1F31F80 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/main.cpp */,
+				353C3367AE124B7CAF0753B3 /* /Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/src/tiny_obj_loader.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		631E8CFD1A624BEFA067C443 /* PBXTargetDependency */ = {
+		A2C6464355B6429482D47E12 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CF55D1AFEB974EAEA5780791 /* raster */;
-			targetProxy = 8E92A2B0AD5E43A2BA5192A5 /* PBXContainerItemProxy */;
+			target = 757148F085FF4CDFAB379AC0 /* ZERO_CHECK */;
+			targetProxy = 1001F65B05914DEEBF8D2330 /* PBXContainerItemProxy */;
 		};
-		A925B4F0D05F402B87AC8423 /* PBXTargetDependency */ = {
+		E91A61E6DAC54102A962BBD0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2F0CCD695CD24A2284D0077B /* ZERO_CHECK */;
-			targetProxy = 8C20AC61D35C43BBA2D3D9FD /* PBXContainerItemProxy */;
+			target = 757148F085FF4CDFAB379AC0 /* ZERO_CHECK */;
+			targetProxy = CE801099319C4678836A9922 /* PBXContainerItemProxy */;
 		};
-		BDE1B5E671AB46B094FC02FC /* PBXTargetDependency */ = {
+		ED6E418D822D42129316AACA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2F0CCD695CD24A2284D0077B /* ZERO_CHECK */;
-			targetProxy = B594F4DDCE9A44D2A031D079 /* PBXContainerItemProxy */;
+			target = 9B7C9B334A164F6683B29007 /* raster */;
+			targetProxy = 4759D6846BAE47BFB57807A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		11A181D2540A4849813DE3B6 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = " -std=c++0x -Wall -pedantic        -DNDEBUG  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = raster;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccmac/Documents/P1 RasterBase/Build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		2385C75A0B2F45BCA899273C /* Release */ = {
+		05938B3FA22C45DF9A1E63EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -353,55 +329,13 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = raster;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccmac/Documents/P1 RasterBase/Build";
+				SYMROOT = "/Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/Build";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
 			name = Release;
 		};
-		2E00DB516AA440BB907B4969 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = " -std=c++0x -Wall -pedantic     -DNDEBUG  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = raster;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccmac/Documents/P1 RasterBase/Build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		40ABF428C44842198C448298 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = "/Users/ccmac/Documents/P1 RasterBase/Build/build";
-			};
-			name = Debug;
-		};
-		55117D4499A94E2DB54A2B01 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = "/Users/ccmac/Documents/P1 RasterBase/Build/build";
-			};
-			name = RelWithDebInfo;
-		};
-		6E49D5809B424DF1ABA2F4CE /* Debug */ = {
+		1717C11E73664F9CA13E7EF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -415,22 +349,13 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccmac/Documents/P1 RasterBase/Build";
+				SYMROOT = "/Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/Build";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
-			name = Debug;
-		};
-		6F5BDA2781754D0A8706E67D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = "/Users/ccmac/Documents/P1 RasterBase/Build/build";
-			};
 			name = Release;
 		};
-		799F7ABB3C23488F91353E5F /* RelWithDebInfo */ = {
+		179E8FB214A94FCCB3FB882D /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -444,62 +369,13 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccmac/Documents/P1 RasterBase/Build";
+				SYMROOT = "/Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/Build";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		7CD4EBC13CE2418781B80E44 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccmac/Documents/P1 RasterBase/Build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		BEA0A5D3FE3A462BB6CC6083 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = "/Users/ccmac/Documents/P1 RasterBase/Build/build";
-			};
-			name = MinSizeRel;
-		};
-		E4477C94E22F41119C7AFD5A /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccmac/Documents/P1 RasterBase/Build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		E6F3E685EE694C99AE16FF4F /* Debug */ = {
+		2038A642038F4CF5AC5BB58E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -517,33 +393,37 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = raster;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccmac/Documents/P1 RasterBase/Build";
+				SYMROOT = "/Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/Build";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
 			name = Debug;
 		};
-		EA17062745444247B9998625 /* Release */ = {
+		2978A4C226BD439896A4FF9A /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++0x -Wall -pedantic     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = raster;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccmac/Documents/P1 RasterBase/Build";
+				SYMROOT = "/Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/Build";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		EFEBFF8F37A1406AB2A8F504 /* Release */ = {
+		2CCDD6D130BC4C84B2F3E1C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -557,13 +437,22 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccmac/Documents/P1 RasterBase/Build";
+				SYMROOT = "/Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/Build";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
-			name = Release;
+			name = Debug;
 		};
-		F0F0DFF34087450190065AC4 /* RelWithDebInfo */ = {
+		2CF6F064A0DD473FA7FCB6E3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/Build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		42EC2C6D7DF044029E8BDE88 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -577,13 +466,46 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccmac/Documents/P1 RasterBase/Build";
+				SYMROOT = "/Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5EE287A58C5D49238C708C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/Build/build";
+			};
+			name = Debug;
+		};
+		61CE188034EF49A6AA851561 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++0x -Wall -pedantic        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raster;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/Build";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		F886E7BD7F9A483C96E37654 /* Debug */ = {
+		651D5C686B534453A53DEFB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -597,60 +519,138 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/ccmac/Documents/P1 RasterBase/Build";
+				SYMROOT = "/Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		67547C56B729431892B1BD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/Build";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
 			name = Debug;
 		};
+		72D6EC1E3E3F48D687FDB888 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9BD662627BE14E159CC09D65 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/Build/build";
+			};
+			name = MinSizeRel;
+		};
+		AAD43ABB57C64E409C1D6D97 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/Build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B95B98681D8B4AE5AE33B7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/ccmac/Documents/GitHub/CPE471/P1 RasterBase/Build/build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12139294762747C7A4D33363 /* Build configuration list for PBXProject "raster" */ = {
+		2A855FEA11E64B39B0704962 /* Build configuration list for PBXNativeTarget "raster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40ABF428C44842198C448298 /* Debug */,
-				6F5BDA2781754D0A8706E67D /* Release */,
-				BEA0A5D3FE3A462BB6CC6083 /* MinSizeRel */,
-				55117D4499A94E2DB54A2B01 /* RelWithDebInfo */,
+				2038A642038F4CF5AC5BB58E /* Debug */,
+				05938B3FA22C45DF9A1E63EE /* Release */,
+				2978A4C226BD439896A4FF9A /* MinSizeRel */,
+				61CE188034EF49A6AA851561 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		2EA18AAFA86E4C75BD90307F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		82419D5895D44072B50A1F85 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E49D5809B424DF1ABA2F4CE /* Debug */,
-				EA17062745444247B9998625 /* Release */,
-				7CD4EBC13CE2418781B80E44 /* MinSizeRel */,
-				F0F0DFF34087450190065AC4 /* RelWithDebInfo */,
+				67547C56B729431892B1BD3F /* Debug */,
+				1717C11E73664F9CA13E7EF1 /* Release */,
+				42EC2C6D7DF044029E8BDE88 /* MinSizeRel */,
+				AAD43ABB57C64E409C1D6D97 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		5CF2BE1E7943455F992055B5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		BDEDFB8BFBF5476EB7D13115 /* Build configuration list for PBXProject "raster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F886E7BD7F9A483C96E37654 /* Debug */,
-				EFEBFF8F37A1406AB2A8F504 /* Release */,
-				E4477C94E22F41119C7AFD5A /* MinSizeRel */,
-				799F7ABB3C23488F91353E5F /* RelWithDebInfo */,
+				5EE287A58C5D49238C708C28 /* Debug */,
+				B95B98681D8B4AE5AE33B7AA /* Release */,
+				9BD662627BE14E159CC09D65 /* MinSizeRel */,
+				2CF6F064A0DD473FA7FCB6E3 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		CFE95798980E4D3F9E92F2CC /* Build configuration list for PBXNativeTarget "raster" */ = {
+		C7754E9F910E4FBAA89EC4E7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E6F3E685EE694C99AE16FF4F /* Debug */,
-				2385C75A0B2F45BCA899273C /* Release */,
-				2E00DB516AA440BB907B4969 /* MinSizeRel */,
-				11A181D2540A4849813DE3B6 /* RelWithDebInfo */,
+				2CCDD6D130BC4C84B2F3E1C3 /* Debug */,
+				651D5C686B534453A53DEFB9 /* Release */,
+				72D6EC1E3E3F48D687FDB888 /* MinSizeRel */,
+				179E8FB214A94FCCB3FB882D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4A32213D3DFD4A1F83F43B0F /* Project object */;
+	rootObject = 734D73F38F08401486E5097B /* Project object */;
 }

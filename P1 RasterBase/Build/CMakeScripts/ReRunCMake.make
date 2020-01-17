@@ -5,10 +5,10 @@ empty:=
 space:= $(empty) $(empty)
 spaceplus:= $(empty)\ $(empty)
 
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/ccmac/Documents/P1\ RasterBase/Build/CMakeFiles/3.16.2/CMakeCCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/ccmac/Documents/P1\ RasterBase/Build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/ccmac/Documents/P1\ RasterBase/Build/CMakeFiles/3.16.2/CMakeSystem.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/ccmac/Documents/P1\ RasterBase/CMakeLists.txt))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/Build/CMakeFiles/3.16.2/CMakeCCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/Build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/Build/CMakeFiles/3.16.2/CMakeSystem.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CMakeCCompiler.cmake.in))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CMakeCCompilerABI.c))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/CMakeCInformation.cmake))
@@ -98,5 +98,5 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.16
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/Platform/Darwin.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.16.2/share/cmake/Modules/Platform/UnixPaths.cmake))
 
-/Users/ccmac/Documents/P1\ RasterBase/Build/CMakeFiles/cmake.check_cache: $(TARGETS)
-	/usr/local/Cellar/cmake/3.16.2/bin/cmake -H/Users/ccmac/Documents/P1\ RasterBase -B/Users/ccmac/Documents/P1\ RasterBase/Build
+/Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/Build/CMakeFiles/cmake.check_cache: $(TARGETS)
+	/usr/local/Cellar/cmake/3.16.2/bin/cmake -H/Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase -B/Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/Build
