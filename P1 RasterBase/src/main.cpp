@@ -17,8 +17,7 @@ using namespace std;
 int g_width, g_height, option;
 float L, R, B, T, C, D, E, F;
 float alpha, beta, gama;
-double frequency = 500.0,freq = 5.0;
-
+float freq1 = 10.0, freq2 = 100.0;
 /*
    Helper function you will want all quarter
    Given a vector of shapes which has already been read from an obj file
@@ -102,9 +101,9 @@ int isinside(vector<float> A, vector<float> B, vector<float> C, vector<float> pt
     alpha = a1/total;
     beta = a2/total;
     gama = a3/total;
-    
+
     //Add epsilon to account for floating point tomfoolery.
-    if(abs(a1+a2+a3 - total) <= 1.0-epsilon){
+    if((abs(alpha+beta+gama) < 1.0+epsilon )&& (abs(alpha+beta+gama)> 1.0-epsilon)){
         return 1;
     }
     return 0;
@@ -216,10 +215,11 @@ int main(int argc, char **argv)
                     /* -1 <=  z  <= 1
                      0 <= z+1 <= 2
                     0 <= 127.5 * (z+1) <= 255*/
-                    float z = alpha * (V1[2]) + beta * (V2[2]) + gama * (V3[2]) + 1;
+                    float z = alpha * (V1[2]) + beta * (V2[2]) + gama * (V3[2]) +1;
         //--------Start Coloring 1: map the z-value to the range 0 to 255. 2. Z- buffer-----
         // If its more (closer) cur z is smaller, do not overwrite the pixel or z value.closer vertices are brighter
                     int r,b,g;
+                    
                     //standard shading
                     if(option == 1){
                        if(zbuffer[y*g_width + x] < z){
@@ -232,10 +232,13 @@ int main(int argc, char **argv)
                     }
                     //use sin to mix colors
                     else if (option == 2){
-                        r = 255 - 255*abs(sin(frequency*z));
-                        b = 255 * abs(sin(freq*z)) ;
-                        g = 255 * abs(sin(frequency*z));
-                        image->setPixel(x, y, r, g, b);
+                        if(zbuffer[y*g_width + x] < z){
+                            zbuffer[y*g_width + x] = z;
+                            r =255-abs(sin(freq1* zbuffer[y*g_width + x])) * 255;
+                            b =abs(cos(freq2* zbuffer[y*g_width + x])) * 255;
+                            g = 255-abs(sin(freq1* zbuffer[y*g_width + x])) * 255;
+                            image->setPixel(x, y, r, g, b);
+                        }
                     }
                     else {
                         /* error checking on coloring mode */

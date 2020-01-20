@@ -52,20 +52,20 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = " bunny.png 512 2 2 3 4 5 "
+            argument = "/Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/resources/bunny.obj bunny2.png 500 500 2"
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "/Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/resources/sphere.obj sphere.png 512 512 1 "
-            isEnabled = "YES">
+            argument = "/Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/resources/sphere.obj sphere.png 500 512 2"
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "/Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/resources/teapot.obj teapot.png 512 512 1 "
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "/Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/resources/tri.obj tri.png 100 100 1 "
-            isEnabled = "NO">
+            argument = "/Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/resources/tri.obj tri.png 100 100 1"
+            isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
    </LaunchAction>
