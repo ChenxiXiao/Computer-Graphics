@@ -64,7 +64,7 @@
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "/Users/ccmac/Documents/GitHub/CPE471/P1\ RasterBase/resources/tri.obj tri.png 100 100 1"
+            argument = "/Users/ccmac/Documents/ha.obj tri.png 500 500 1"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
