@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6EB13DCB57064FBF95002CE9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 80F309717E1A45A7BA7799B7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				BFD086339BC041099C91E130 /* CMake Rules */,
+			);
+			dependencies = (
+				EFA6031DE4C344ADBC202A69 /* PBXTargetDependency */,
+				30AA734D009C4F2FB2BF3458 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F75CF9B1F38044AF9D20E407 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 54C351F6379B4D2E8A195C3B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				0B893A03901545068657EC03 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1D0AA6DE78F94A7D88D5E438 /* MatrixStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 898B8A7B24DA48659B6D2163 /* MatrixStack.cpp */; };
+		2909D857B4294EA89A5782AE /* tiny_obj_loader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 206936B959EF4CAFB4305EC9 /* tiny_obj_loader.cpp */; };
+		41F68B9BE88F4ED78D280B1D /* GLSL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 521C71C5A16D4AF4BFD4EFB3 /* GLSL.cpp */; };
+		650D1062E91F498FA7C9183F /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C90A7F3F44A32A4879BBE /* Texture.cpp */; };
+		9710909315B2480D951B49D0 /* Program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A09583F0815428B8A9F72CC /* Program.cpp */; };
+		BCEBA2491F414CBC983CE6B2 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 20C0CB7BBC9544BC8F0EE43A /* glad.c */; };
+		D399FEE28AF34A3A8723B5D4 /* WindowManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF2776EF81EF4F42920CF6E9 /* WindowManager.cpp */; };
+		E103DD944F5E469DBA5E0AA0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04719FD2DDA3482FA520DC14 /* main.cpp */; };
+		F9CE86477D01434FB8955D55 /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840BDD2FFA1A4CA0BFDA5EBF /* Shape.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19C88F2523CF432094B068EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C50FD14E71A4DFD98AF19F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A86E8160DC0043B6BDAD4BA2;
+			remoteInfo = final_project;
+		};
+		690E6C485D984D55BB656B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C50FD14E71A4DFD98AF19F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75CF9B1F38044AF9D20E407;
+			remoteInfo = ZERO_CHECK;
+		};
+		E1C52BBADC28435EB715F409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C50FD14E71A4DFD98AF19F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75CF9B1F38044AF9D20E407;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04719FD2DDA3482FA520DC14 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; usesTabs = 0; };
+		06EAE4CC32174C03AF4D29DC /* glad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glad.h; path = ext/glad/include/glad/glad.h; sourceTree = SOURCE_ROOT; };
+		09FB026710F04C0389D5BE6E /* lab10_frag.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = lab10_frag.glsl; path = resources/lab10_frag.glsl; sourceTree = SOURCE_ROOT; };
+		0B8C90A7F3F44A32A4879BBE /* Texture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Texture.cpp; path = src/Texture.cpp; sourceTree = SOURCE_ROOT; };
+		0E4CECE0F6DF4DB2A9246573 /* height_frag.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = height_frag.glsl; path = resources/height_frag.glsl; sourceTree = SOURCE_ROOT; };
+		1681B1405BF94C119C9058FD /* phong_frag.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = phong_frag.glsl; path = resources/phong_frag.glsl; sourceTree = SOURCE_ROOT; };
+		179EF6D302CE4CE4AC08117B /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		206936B959EF4CAFB4305EC9 /* tiny_obj_loader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tiny_obj_loader.cpp; path = ext/tiny_obj_loader/tiny_obj_loader.cpp; sourceTree = SOURCE_ROOT; };
+		20C0CB7BBC9544BC8F0EE43A /* glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = ext/glad/src/glad.c; sourceTree = SOURCE_ROOT; };
+		2576B6BDB029418CBF2E78C6 /* cube_vert.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = cube_vert.glsl; path = resources/cube_vert.glsl; sourceTree = SOURCE_ROOT; };
+		269830180CA34D4680EEA00A /* campus_frag.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = campus_frag.glsl; path = resources/campus_frag.glsl; sourceTree = SOURCE_ROOT; };
+		30A9C0C8D775444CBF004597 /* tex_vert.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = tex_vert.glsl; path = resources/tex_vert.glsl; sourceTree = SOURCE_ROOT; };
+		33E89CAADDB84306944FFF39 /* cube_frag.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = cube_frag.glsl; path = resources/cube_frag.glsl; sourceTree = SOURCE_ROOT; };
+		3683E9C3503D4994A6B13FB5 /* Texture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Texture.h; path = src/Texture.h; sourceTree = SOURCE_ROOT; };
+		36E4ABA1BBE74015A703D2F1 /* lab10_vert.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = lab10_vert.glsl; path = resources/lab10_vert.glsl; sourceTree = SOURCE_ROOT; };
+		3C2822F0106C4C0A9CB5E0D7 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		427529E4B32B46B1BD9F0E2E /* stb_image_write.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image_write.h; path = src/stb_image_write.h; sourceTree = SOURCE_ROOT; };
+		4A9BCB1BB2E144E99B3435F3 /* stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image.h; path = src/stb_image.h; sourceTree = SOURCE_ROOT; };
+		521C71C5A16D4AF4BFD4EFB3 /* GLSL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLSL.cpp; path = src/GLSL.cpp; sourceTree = SOURCE_ROOT; };
+		52AACCC124216EA50000EDB8 /* male.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = male.obj; path = resources/cartoon_boy/male.obj; sourceTree = "<group>"; };
+		5831ED4946D544B192FECAB3 /* campus_vert.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = campus_vert.glsl; path = resources/campus_vert.glsl; sourceTree = SOURCE_ROOT; };
+		601770C7312E49A598006B36 /* phong_vert.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = phong_vert.glsl; path = resources/phong_vert.glsl; sourceTree = SOURCE_ROOT; };
+		61186B01E72146CFAF2473F3 /* yellow_frag.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = yellow_frag.glsl; path = resources/yellow_frag.glsl; sourceTree = SOURCE_ROOT; };
+		7106CB29B5764E80B5147DEE /* khrplatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = khrplatform.h; path = ext/glad/include/KHR/khrplatform.h; sourceTree = SOURCE_ROOT; };
+		75F5C3C0613C4FFD82B07EFB /* Shape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Shape.h; path = src/Shape.h; sourceTree = SOURCE_ROOT; };
+		840BDD2FFA1A4CA0BFDA5EBF /* Shape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shape.cpp; path = src/Shape.cpp; sourceTree = SOURCE_ROOT; };
+		898B8A7B24DA48659B6D2163 /* MatrixStack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MatrixStack.cpp; path = src/MatrixStack.cpp; sourceTree = SOURCE_ROOT; };
+		89C1D0FA3F0149908E0AF2BA /* GLSL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLSL.h; path = src/GLSL.h; sourceTree = SOURCE_ROOT; };
+		8A09583F0815428B8A9F72CC /* Program.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Program.cpp; path = src/Program.cpp; sourceTree = SOURCE_ROOT; };
+		AA41F260B1B7423A8924B619 /* simple_vert.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = simple_vert.glsl; path = resources/simple_vert.glsl; sourceTree = SOURCE_ROOT; };
+		B2E54FE1A20A4172929329DB /* MatrixStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MatrixStack.h; path = src/MatrixStack.h; sourceTree = SOURCE_ROOT; };
+		B2FDF6F662594BF4BB334D24 /* lighting_frag.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = lighting_frag.glsl; path = resources/lighting_frag.glsl; sourceTree = SOURCE_ROOT; };
+		B848E19CD95D40A580E81D58 /* tex_frag0.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = tex_frag0.glsl; path = resources/tex_frag0.glsl; sourceTree = SOURCE_ROOT; };
+		BAC99D969DEA4326AE57B304 /* tiny_obj_loader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiny_obj_loader.h; path = ext/tiny_obj_loader/tiny_obj_loader.h; sourceTree = SOURCE_ROOT; };
+		C7BE8AAD9F004A24A1B29338 /* Program.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Program.h; path = src/Program.h; sourceTree = SOURCE_ROOT; };
+		C93CE203437940189EBC2B2B /* WindowManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = WindowManager.h; path = src/WindowManager.h; sourceTree = SOURCE_ROOT; };
+		D521B160DA11412893A967C6 /* lighting_vert.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = lighting_vert.glsl; path = resources/lighting_vert.glsl; sourceTree = SOURCE_ROOT; };
+		D74BDC9BB4D54B81B0B0BF1F /* simple_frag.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = simple_frag.glsl; path = resources/simple_frag.glsl; sourceTree = SOURCE_ROOT; };
+		DF2776EF81EF4F42920CF6E9 /* WindowManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WindowManager.cpp; path = src/WindowManager.cpp; sourceTree = SOURCE_ROOT; };
+		E2BEA926FC0F43E9ABFEF5CE /* final_project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = final_project; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		22C0C7C1A727479EA5F8F33A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				20C0CB7BBC9544BC8F0EE43A /* glad.c */,
+				206936B959EF4CAFB4305EC9 /* tiny_obj_loader.cpp */,
+				521C71C5A16D4AF4BFD4EFB3 /* GLSL.cpp */,
+				898B8A7B24DA48659B6D2163 /* MatrixStack.cpp */,
+				8A09583F0815428B8A9F72CC /* Program.cpp */,
+				840BDD2FFA1A4CA0BFDA5EBF /* Shape.cpp */,
+				0B8C90A7F3F44A32A4879BBE /* Texture.cpp */,
+				DF2776EF81EF4F42920CF6E9 /* WindowManager.cpp */,
+				04719FD2DDA3482FA520DC14 /* main.cpp */,
+				52AACCC124216EA50000EDB8 /* male.obj */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5AB5B866D5EA4FE8BE41121F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		816BB0DB8C664706AE2D663C = {
+			isa = PBXGroup;
+			children = (
+				DF0DE6535966462396986B37 /* final_project */,
+				F638A54E097C490C9C4662AE /* ALL_BUILD */,
+				D8C97094379549D7933F3357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8C97094379549D7933F3357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2BEA926FC0F43E9ABFEF5CE /* final_project */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE72D4B12F3340F1AF3F365C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				7106CB29B5764E80B5147DEE /* khrplatform.h */,
+				06EAE4CC32174C03AF4D29DC /* glad.h */,
+				BAC99D969DEA4326AE57B304 /* tiny_obj_loader.h */,
+				89C1D0FA3F0149908E0AF2BA /* GLSL.h */,
+				B2E54FE1A20A4172929329DB /* MatrixStack.h */,
+				C7BE8AAD9F004A24A1B29338 /* Program.h */,
+				75F5C3C0613C4FFD82B07EFB /* Shape.h */,
+				3683E9C3503D4994A6B13FB5 /* Texture.h */,
+				C93CE203437940189EBC2B2B /* WindowManager.h */,
+				4A9BCB1BB2E144E99B3435F3 /* stb_image.h */,
+				427529E4B32B46B1BD9F0E2E /* stb_image_write.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		DF0DE6535966462396986B37 /* final_project */ = {
+			isa = PBXGroup;
+			children = (
+				22C0C7C1A727479EA5F8F33A /* Source Files */,
+				DE72D4B12F3340F1AF3F365C /* Header Files */,
+				179EF6D302CE4CE4AC08117B /* CMakeLists.txt */,
+				269830180CA34D4680EEA00A /* campus_frag.glsl */,
+				5831ED4946D544B192FECAB3 /* campus_vert.glsl */,
+				33E89CAADDB84306944FFF39 /* cube_frag.glsl */,
+				2576B6BDB029418CBF2E78C6 /* cube_vert.glsl */,
+				0E4CECE0F6DF4DB2A9246573 /* height_frag.glsl */,
+				09FB026710F04C0389D5BE6E /* lab10_frag.glsl */,
+				36E4ABA1BBE74015A703D2F1 /* lab10_vert.glsl */,
+				B2FDF6F662594BF4BB334D24 /* lighting_frag.glsl */,
+				D521B160DA11412893A967C6 /* lighting_vert.glsl */,
+				1681B1405BF94C119C9058FD /* phong_frag.glsl */,
+				601770C7312E49A598006B36 /* phong_vert.glsl */,
+				D74BDC9BB4D54B81B0B0BF1F /* simple_frag.glsl */,
+				AA41F260B1B7423A8924B619 /* simple_vert.glsl */,
+				B848E19CD95D40A580E81D58 /* tex_frag0.glsl */,
+				30A9C0C8D775444CBF004597 /* tex_vert.glsl */,
+				61186B01E72146CFAF2473F3 /* yellow_frag.glsl */,
+			);
+			name = final_project;
+			sourceTree = "<group>";
+		};
+		F638A54E097C490C9C4662AE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				5AB5B866D5EA4FE8BE41121F /* CMake Rules */,
+				3C2822F0106C4C0A9CB5E0D7 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A86E8160DC0043B6BDAD4BA2 /* final_project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48CDB2C723954FDF810FD746 /* Build configuration list for PBXNativeTarget "final_project" */;
+			buildPhases = (
+				41AE92C32F104EB382C44E56 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E34707D5EF6B46EBBBE43D5A /* PBXTargetDependency */,
+			);
+			name = final_project;
+			productName = final_project;
+			productReference = E2BEA926FC0F43E9ABFEF5CE /* final_project */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C50FD14E71A4DFD98AF19F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = A0170FD3CD354DAC9985293B /* Build configuration list for PBXProject "final_project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 816BB0DB8C664706AE2D663C;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				6EB13DCB57064FBF95002CE9 /* ALL_BUILD */,
+				F75CF9B1F38044AF9D20E407 /* ZERO_CHECK */,
+				A86E8160DC0043B6BDAD4BA2 /* final_project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B893A03901545068657EC03 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ccmac/Documents/GitHub/CPE471/P4/build -f /Users/ccmac/Documents/GitHub/CPE471/P4/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		BFD086339BC041099C91E130 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ccmac/Documents/GitHub/CPE471/P4/build -f /Users/ccmac/Documents/GitHub/CPE471/P4/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41AE92C32F104EB382C44E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEBA2491F414CBC983CE6B2 /* glad.c in Sources */,
+				2909D857B4294EA89A5782AE /* tiny_obj_loader.cpp in Sources */,
+				41F68B9BE88F4ED78D280B1D /* GLSL.cpp in Sources */,
+				1D0AA6DE78F94A7D88D5E438 /* MatrixStack.cpp in Sources */,
+				9710909315B2480D951B49D0 /* Program.cpp in Sources */,
+				F9CE86477D01434FB8955D55 /* Shape.cpp in Sources */,
+				650D1062E91F498FA7C9183F /* Texture.cpp in Sources */,
+				D399FEE28AF34A3A8723B5D4 /* WindowManager.cpp in Sources */,
+				E103DD944F5E469DBA5E0AA0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30AA734D009C4F2FB2BF3458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A86E8160DC0043B6BDAD4BA2 /* final_project */;
+			targetProxy = 19C88F2523CF432094B068EA /* PBXContainerItemProxy */;
+		};
+		E34707D5EF6B46EBBBE43D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75CF9B1F38044AF9D20E407 /* ZERO_CHECK */;
+			targetProxy = 690E6C485D984D55BB656B37 /* PBXContainerItemProxy */;
+		};
+		EFA6031DE4C344ADBC202A69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75CF9B1F38044AF9D20E407 /* ZERO_CHECK */;
+			targetProxy = E1C52BBADC28435EB715F409 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E68C9D6C6754CC28481B937 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/ccmac/Documents/GitHub/CPE471/P4/ext,
+					/Users/ccmac/Documents/GitHub/CPE471/P4/ext/glad/include,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libglfw.3.3.dylib,
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = final_project;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/GitHub/CPE471/P4/build;
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/include;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		14EF153C6C5D40E3959A953A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/GitHub/CPE471/P4/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		1B3D393BE1FF4AAE9A54E107 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/GitHub/CPE471/P4/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		1C2D569DF4234CF59CC8EC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/ccmac/Documents/GitHub/CPE471/P4/build/build;
+			};
+			name = Release;
+		};
+		2F5E5AF5CE344621B598A0C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/GitHub/CPE471/P4/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		336925D1745E433590CCB5EE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/ccmac/Documents/GitHub/CPE471/P4/ext,
+					/Users/ccmac/Documents/GitHub/CPE471/P4/ext/glad/include,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libglfw.3.3.dylib,
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = final_project;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/GitHub/CPE471/P4/build;
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/include;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		3AB5BEB195E74401AF740172 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/GitHub/CPE471/P4/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		3F6F9D372A4048E4A484844C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/ccmac/Documents/GitHub/CPE471/P4/build/build;
+			};
+			name = Debug;
+		};
+		485CCCDF00AD4C25AFA140EE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/GitHub/CPE471/P4/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		6D018A12771E482D9DD10CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/ccmac/Documents/GitHub/CPE471/P4/ext,
+					/Users/ccmac/Documents/GitHub/CPE471/P4/ext/glad/include,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libglfw.3.3.dylib,
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = final_project;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/GitHub/CPE471/P4/build;
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/include;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		A52595CD82674ABCBC751398 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/GitHub/CPE471/P4/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		AFEA21CD1103463DAE994C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/ccmac/Documents/GitHub/CPE471/P4/ext,
+					/Users/ccmac/Documents/GitHub/CPE471/P4/ext/glad/include,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libglfw.3.3.dylib,
+					"-framework",
+					OpenGL,
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreVideo,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = final_project;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/GitHub/CPE471/P4/build;
+				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/include;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		B3CCC46D31654B13BA5B4BF2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/ccmac/Documents/GitHub/CPE471/P4/build/build;
+			};
+			name = MinSizeRel;
+		};
+		BE28337B73D14A7FBC308F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/GitHub/CPE471/P4/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		C4369004F4B74BA78A92BF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/ccmac/Documents/GitHub/CPE471/P4/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		E269A8243B344FF1BBB258B2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/ccmac/Documents/GitHub/CPE471/P4/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48CDB2C723954FDF810FD746 /* Build configuration list for PBXNativeTarget "final_project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D018A12771E482D9DD10CEF /* Debug */,
+				AFEA21CD1103463DAE994C41 /* Release */,
+				0E68C9D6C6754CC28481B937 /* MinSizeRel */,
+				336925D1745E433590CCB5EE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		54C351F6379B4D2E8A195C3B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5E5AF5CE344621B598A0C3 /* Debug */,
+				C4369004F4B74BA78A92BF20 /* Release */,
+				485CCCDF00AD4C25AFA140EE /* MinSizeRel */,
+				A52595CD82674ABCBC751398 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80F309717E1A45A7BA7799B7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE28337B73D14A7FBC308F37 /* Debug */,
+				14EF153C6C5D40E3959A953A /* Release */,
+				1B3D393BE1FF4AAE9A54E107 /* MinSizeRel */,
+				3AB5BEB195E74401AF740172 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0170FD3CD354DAC9985293B /* Build configuration list for PBXProject "final_project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6F9D372A4048E4A484844C /* Debug */,
+				1C2D569DF4234CF59CC8EC2D /* Release */,
+				B3CCC46D31654B13BA5B4BF2 /* MinSizeRel */,
+				E269A8243B344FF1BBB258B2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C50FD14E71A4DFD98AF19F8 /* Project object */;
+}
